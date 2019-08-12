@@ -1,2 +1,2 @@
 # Algorithms
-A collection of algorithm implementations from third year algorithms course. 
+A collection of algorithm implementations. 
