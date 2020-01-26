@@ -1,2 +1,2 @@
 # Algorithms
-A collection of machine learning algorithm implementations. 
+A collection of algorithm and data structure implementations. 
