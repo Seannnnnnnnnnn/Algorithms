@@ -1,7 +1,4 @@
-//
-//  Notes:
-//  C++ is gay
-//  array syntax: dtype _name_ [] = {x_1, x_2, ..., x_n}
+// Project Euler Question #4: 
 
 #include <iostream>
 using namespace std;
@@ -23,7 +20,7 @@ bool is_palindrome(string s){
 
 
 int largest_palindrome(){
-    int largest, int1, int2, = 0, 0, 0;
+    int largest = 0;
     
     
     for(int i=101; i<1000; i++){
@@ -36,8 +33,6 @@ int largest_palindrome(){
             
             if (is_palindrome(str) && p>largest) {
                 largest = p;
-                int1 = i;
-                int2 = j;
             }
             
         }
@@ -49,9 +44,7 @@ int largest_palindrome(){
 
 int main()
 {
-    
     cout << "Largest palindrome that is product of 3 digit integers: " << largest_palindrome() << endl;
     
-
     return 0;
 }
