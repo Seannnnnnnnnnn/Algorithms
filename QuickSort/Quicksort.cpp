@@ -43,7 +43,7 @@ int main() {
     int foo [100] ;
     int n = 100;
     for (int i = 0; i<100; i++){
-	foo[i] = rand();
+	foo[i] = rand()%1000;
     }
     quick_sort(foo, 0, n);
     for (int i =0; i<=n; i++){
