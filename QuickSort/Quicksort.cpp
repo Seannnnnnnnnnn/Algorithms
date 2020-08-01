@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 
 
 void swap_pos(int* i, int* j){
@@ -38,8 +39,12 @@ void quick_sort(int array[], int lo, int hi){
 
 
 int main() {
-    int foo [] = {43, 5, -23, 66, 80, -12, 4, 5, 6, 100, 12};
-	int n = sizeof(foo)/sizeof(foo[0]);
+	// fill an array with 100 random integers and sort 
+    int foo [100] ;
+	int n = 100;
+	for (int i = 0; i<100; i++){
+		foo[i] = rand();
+	}
 	quick_sort(foo, 0, n);
 	
 	for (int i =0; i<=n; i++){
