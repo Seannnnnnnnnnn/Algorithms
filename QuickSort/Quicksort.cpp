@@ -41,15 +41,14 @@ void quick_sort(int array[], int lo, int hi){
 int main() {
 	// fill an array with 100 random integers and sort 
     int foo [100] ;
-	int n = 100;
-	for (int i = 0; i<100; i++){
-		foo[i] = rand();
-	}
-	quick_sort(foo, 0, n);
-	
-	for (int i =0; i<=n; i++){
-		std::cout<<foo[i]<<'\t';
-	}
-	std::cout<<'\n';
-	return 0;
+    int n = 100;
+    for (int i = 0; i<100; i++){
+	foo[i] = rand();
+    }
+    quick_sort(foo, 0, n);
+    for (int i =0; i<=n; i++){
+	std::cout<<foo[i]<<'\t';
+    }
+    std::cout<<'\n';
+    return 0;
 }
