@@ -8,5 +8,5 @@ Quicksort is a tricky algorithm for people just beginning to learn computer scie
 # DataStructures 
 A directory containing a variety of data structures for my reference, or for anyone who would need them.
 
-# DataStructures 
+# DynamicProgramming
 A directory containing a variety of Dynamic Programming solutions & algorithms for my reference, or for anyone who would need them.
