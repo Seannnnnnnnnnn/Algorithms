@@ -3,7 +3,8 @@
 
 void edit_distance(std::string s1, std::string s2, int n, int m){
 	// Computes the edit distance between s1 and s2
-	// Time complexity: O(n)
+	// Time complexity: O(nm)
+	// Space complexity: O(nm)
 	
 	// Define and instanciate the Dist table
 	std::vector<std::vector<int>> Dist(n, std::vector<int>(m, 0));
